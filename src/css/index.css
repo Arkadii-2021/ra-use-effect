@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+}
+
+ul {
+  display: flex;
+  margin: -1px 0;
+  flex-direction: column;
+}
+
+p {
+  margin-left: 5px;
+}
+
+.person {
+  width: 300px;
+  height: 30px;
+  border: 1px solid gray;
+  list-style-type: none;
+  cursor: pointer;
+  padding-top: 12px;
+  padding-left: 5px;
+  margin-top: -1px;
+}
+
+.person__id {
+  width: 300px;
+  height: 30px;
+  border: 1px solid gray;
+  list-style-type: none;
+  background: blue;
+  color: white;
+  cursor: pointer;
+  padding-top: 12px;
+  padding-left: 5px;
+  margin-top: -1px;
+}
+
+.person:hover {
+  background: lightblue;
+}
+
+.person:active {
+  background: blue;
+  color: white;
+}
+
+.details {
+  margin-left: 50px;
+}
+
+.person__detail {
+  width: 298px;
+  height: 300px;
+  object-fit: cover;
+  border: 1px solid gray;
+}
+
+.person__info {
+  width: 293px;
+  height: 30px;
+  border: 1px solid gray;
+  list-style-type: none;
+  padding-top: 12px;
+  padding-left: 5px;
+  margin-top: -5px;;
+}
+
+.person__name {
+  font-size: 22px;
+  margin-top: -5px;
+}
+
+.person__city {
+  margin-top: 9px;
+  width: 298px;
+  border: 1px solid gray;
+  margin-left: -6px;
+}
+
+.person__company {
+  width: 298px;
+  border: 1px solid gray;
+  margin-left: -6px;
+  margin-top: -1px;
+}
+
+.person__position {
+  width: 298px;
+  border: 1px solid gray;
+  margin-left: -6px;
+  margin-top: -1px;
+}
